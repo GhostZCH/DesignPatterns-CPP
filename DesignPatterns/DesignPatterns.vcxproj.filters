@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CreateKind">
+      <UniqueIdentifier>{6f9d4974-2db7-420f-ac55-fcc7031dfff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateKind\AbsractFactory">
+      <UniqueIdentifier>{5206ff48-8d3e-4a35-a3fa-19ee2f4f56e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateKind\Factory">
+      <UniqueIdentifier>{80120f33-208a-4610-8f47-e6b5b2bfdfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateKind\Builder">
+      <UniqueIdentifier>{9b32b84a-799e-424c-94ae-6db5fc53b9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateKind\Prototype">
+      <UniqueIdentifier>{2637e51a-52df-4dd5-a7e5-7a18437c4553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateKind\Singleton">
+      <UniqueIdentifier>{6404898b-af93-41a9-a742-b425b60873a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure">
+      <UniqueIdentifier>{6faa25e0-de59-4ff6-a480-c83a043117b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Adapter">
+      <UniqueIdentifier>{27d77bc4-5f42-4124-94f0-9cf5565e4d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Bridge">
+      <UniqueIdentifier>{8faae0f5-85e5-43f6-a195-b7ea29f0693a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Composite">
+      <UniqueIdentifier>{8bb8b7f5-9cb5-49b2-8dfb-a22766f6b4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Decorator">
+      <UniqueIdentifier>{0a971bec-c2e0-48b0-88dc-a6713793fdfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Facade">
+      <UniqueIdentifier>{53aa9d00-fe4a-42eb-a979-e77314f38b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\Proxy">
+      <UniqueIdentifier>{9a9e4138-dd8b-480d-b045-df9e9506a11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{6eb7c691-6baa-4805-aa92-46bcf46f90ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\ReponsibilityChain">
+      <UniqueIdentifier>{4cf73cd6-941a-445e-8e8b-7c56dd8cd596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Command">
+      <UniqueIdentifier>{8a3c02e1-b51c-47e2-831e-c8d594752b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Interpreter">
+      <UniqueIdentifier>{d9bcc799-d57e-4b8a-81c5-c0c4a17f7869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Iterator">
+      <UniqueIdentifier>{c8787d90-b38c-4b0d-9f1f-364baeaf1701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Medeiator">
+      <UniqueIdentifier>{8ab24959-f6a6-4609-8b74-c16bdc8026d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Memento">
+      <UniqueIdentifier>{3a5246f1-7478-4ec3-8dfd-78885bd5c82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Observer">
+      <UniqueIdentifier>{053aa9cc-2465-43ec-8804-e30efb624a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\State">
+      <UniqueIdentifier>{bcf35f6a-e3d1-4caa-a54b-dac99aaaec71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Strategy">
+      <UniqueIdentifier>{12f9393d-5468-45ba-8093-0dc1cc13f4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\TemplateMethod">
+      <UniqueIdentifier>{378ff953-8f61-49a1-956d-73f77655b183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\Visitor">
+      <UniqueIdentifier>{74e8b1f0-bb0c-4176-a1f9-22507950eea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure\FlyWeight">
+      <UniqueIdentifier>{5a974c24-7eec-4b99-a5f1-2793da38a514}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesignPatternsMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory\Factory.cpp">
+      <Filter>CreateKind\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsractFactory\AbsractFactory.cpp">
+      <Filter>CreateKind\AbsractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder\Builder.cpp">
+      <Filter>CreateKind\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\Prototype.cpp">
+      <Filter>CreateKind\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton\Singleton.cpp">
+      <Filter>CreateKind\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter\Adapter.cpp">
+      <Filter>Structure\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge\Bridge.cpp">
+      <Filter>Structure\Bridge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory\Factory.h">
+      <Filter>CreateKind\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsractFactory\AbsractFactory.h">
+      <Filter>CreateKind\AbsractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\Builder.h">
+      <Filter>CreateKind\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\Prototype.h">
+      <Filter>CreateKind\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Singleton.h">
+      <Filter>CreateKind\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Adapter.h">
+      <Filter>Structure\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\Bridge.h">
+      <Filter>Structure\Bridge</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
